@@ -1,0 +1,62 @@
+html,body {
+  height: 100%;
+
+}
+
+.home {
+  background-image: linear-gradient(180deg,white, rgb(238, 238, 238), rgb(211, 211, 211),  rgb(143, 143, 255));
+  min-height: 100vh
+}
+
+.logo-img {
+  height: 15rem;
+  width: auto;
+  object-fit: contain;
+  overflow: hidden;
+  // &:hover {
+  //   transform: scale(1.2);
+  //   // transition-duration: ;
+  //   transition: all 0.3s;
+
+}
+
+.main-title {
+  margin: 2% 5%;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.logo-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  max-width: 45%;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  box-shadow: 5px 5px 11px 0px #0000001f;
+  border-radius: 5px;
+}
+
+.login-area {
+  margin: auto;
+  max-width: 45%;
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  box-shadow: 5px 5px 11px 0px #0000001f;;
+  border-radius: 5px;
+}
+
+.login-form {
+  padding: 0.9rem;
+}
+
+.login-title {
+  text-align: center;
+}
+
+.submit-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
